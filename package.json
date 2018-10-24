@@ -6,11 +6,12 @@
   "author": "Shubham Maurya <code.shaurya@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "express": "^4.16.4",
     "next": "^7.0.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
