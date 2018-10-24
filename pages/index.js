@@ -1,16 +1,11 @@
 import Link from "next/link";
+import Header from "../components/Header";
+import Layout from "../components/Layout";
 
 const Index = () => (
-  <div>
-    <Link href="/about">
-      <button>> Go the about page Button </button>
-    </Link>
-    <Link href="/about">
-      <a style={{ fontSize: "30px" }}>Go to about Page Link</a>
-    </Link>
+  <Layout>
     <p>Hello Next.js</p>
-    <a href="/about">This is not the client routing</a>
-  </div>
+  </Layout>
 );
 
 export default Index;
